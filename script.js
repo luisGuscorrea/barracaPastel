@@ -12,3 +12,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+function toggleOptions(categoryId) {
+  var options = document.getElementById(categoryId);
+  options.style.display = options.style.display === 'none' ? 'block' : 'none';
+}
